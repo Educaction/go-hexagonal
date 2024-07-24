@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  fc2arquiteturahexagonal:
+    build: .
+    volumes:
+      - .:/go/src
+    stdin_open: true
+    tty: true
