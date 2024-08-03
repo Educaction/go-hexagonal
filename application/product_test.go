@@ -37,7 +37,7 @@ func TestProductDisable(t *testing.T) {
 	require.Equal(t, "the price must be zero in order to have the product disabled", err.Error())
 }
 
-func TestProduct_IsValid(t *testing.T) {
+func TestProductIsValid(t *testing.T) {
 	product := application.Product{}
 	product.ID = uuid.NewV4().String()
 	product.Name = "hello"
