@@ -5,7 +5,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/Educaction/go-hexagonal/application/db"
+	"github.com/Educaction/go-hexagonal/adapters/db"
 	"github.com/stretchr/testify/require"
 )
 

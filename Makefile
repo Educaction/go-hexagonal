@@ -10,3 +10,5 @@ create_table_sqlite:
 	sqlite> create table products(id string, name string, price float, status string);
 	sqlite> .tables
 	products
+
+go_tests:
