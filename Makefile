@@ -12,3 +12,4 @@ create_table_sqlite:
 	products
 
 go_tests:
+	go test ./...
