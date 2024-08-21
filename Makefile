@@ -13,3 +13,16 @@ create_table_sqlite:
 
 go_tests:
 	go test ./...
+
+# o primeiro command vai criar a past cmd com os file cli e root
+# os outros comando somente para ver se esta funcionando
+cobra:
+	cobra-cli init   
+	cobra-cli
+	cobra-cli add cli
+	go run main.go cli
+
+
+cli_create:
+	go run main.go cli -a=create -n="Product Cli" -p=25.0
+
