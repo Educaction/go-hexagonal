@@ -10,11 +10,11 @@
             "colId": "41d34ec9-bbfb-4a1b-a456-0cde3cff6fcd",
             "containerId": "",
             "name": "http://localhost:9000/product",
-            "url": "http://localhost:9000/product/ff972165-3e90-4837-883f-1529ae20ae22",
+            "url": "http://localhost:9000/product/7a62e4d3-cdb2-48c1-a944-8d59f3eb9def",
             "method": "GET",
             "sortNum": 20000,
             "created": "2024-08-22T11:12:01.064Z",
-            "modified": "2024-08-22T11:12:21.073Z",
+            "modified": "2024-08-23T10:06:47.445Z",
             "headers": []
         },
         {
@@ -26,13 +26,37 @@
             "method": "POST",
             "sortNum": 30000,
             "created": "2024-08-22T11:12:45.175Z",
-            "modified": "2024-08-23T09:51:44.635Z",
+            "modified": "2024-08-23T10:03:38.695Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\": \"Testando do thunder-tests\",\n  \"price\": -10\n}",
+                "raw": "{\n  \"name\": \"Testando do thunder-tests2 \",\n  \"price\": 20\n}",
                 "form": []
             }
+        },
+        {
+            "_id": "3f1e9e23-4ae1-485a-8224-847412f1314b",
+            "colId": "41d34ec9-bbfb-4a1b-a456-0cde3cff6fcd",
+            "containerId": "",
+            "name": "/product/{id}/enable",
+            "url": "http://localhost:9000/product/7a62e4d3-cdb2-48c1-a944-8d59f3eb9def/enable",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-08-23T10:04:23.635Z",
+            "modified": "2024-08-23T10:11:37.855Z",
+            "headers": []
+        },
+        {
+            "_id": "03d883d8-1ff2-4210-9aa1-c961fa9b4fac",
+            "colId": "41d34ec9-bbfb-4a1b-a456-0cde3cff6fcd",
+            "containerId": "",
+            "name": "/product/{id}/disable",
+            "url": "http://localhost:9000/product/7a62e4d3-cdb2-48c1-a944-8d59f3eb9def/disable",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-08-23T10:06:01.574Z",
+            "modified": "2024-08-23T10:11:42.845Z",
+            "headers": []
         }
     ]
 }
