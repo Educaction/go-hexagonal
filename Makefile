@@ -27,8 +27,8 @@ cli_create:
 	go run main.go cli -a=create -n="Product Cli" -p=25.0
 
 # o primeiro commando cria o file http.go na pasta
-# o segundo ter que ser rodado depois que atualizar o http.go 
-# o terceito em outro termina, pois de depois rodar o comando acima ele abre http://localhost:9000
+# o segundo ter que ser rodado depois que atualizar o http.go, ele abre http://localhost:9000 no terminal
+# o terceito em outro terminal, apenas para testar. Vc vai ver o resultado no terminal acima
 cobra_http:
 	cobra-cli add http
 	go run main.go http

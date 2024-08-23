@@ -4,5 +4,6 @@ services:
     build: .
     volumes:
       - .:/go/src
+      - ./thunder-tests:/var/www/.vscode-server/data/User/globalStorage/rangav.vscode-thunder-client     
     stdin_open: true
     tty: true

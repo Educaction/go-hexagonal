@@ -1,2 +1,4 @@
 db.sqlite
 wca-at-ibm-*.vsix
+thunder-tests/res-files/*
+thunderResponses.json

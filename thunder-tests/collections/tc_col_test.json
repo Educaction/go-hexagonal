@@ -1,0 +1,38 @@
+{
+    "_id": "41d34ec9-bbfb-4a1b-a456-0cde3cff6fcd",
+    "colName": "test",
+    "created": "2024-08-22T11:09:52.014Z",
+    "sortNum": 10000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "363cd31f-6bb9-4d2e-86f2-937acc8370a5",
+            "colId": "41d34ec9-bbfb-4a1b-a456-0cde3cff6fcd",
+            "containerId": "",
+            "name": "http://localhost:9000/product",
+            "url": "http://localhost:9000/product/ff972165-3e90-4837-883f-1529ae20ae22",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-08-22T11:12:01.064Z",
+            "modified": "2024-08-22T11:12:21.073Z",
+            "headers": []
+        },
+        {
+            "_id": "f1019383-bc6c-4bc5-a5fd-3d6d311444ae",
+            "colId": "41d34ec9-bbfb-4a1b-a456-0cde3cff6fcd",
+            "containerId": "",
+            "name": "http://localhost:9000/product",
+            "url": "http://localhost:9000/product",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-08-22T11:12:45.175Z",
+            "modified": "2024-08-23T09:51:44.635Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Testando do thunder-tests\",\n  \"price\": -10\n}",
+                "form": []
+            }
+        }
+    ]
+}
